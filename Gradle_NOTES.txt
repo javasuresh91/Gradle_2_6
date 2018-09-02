@@ -1,0 +1,27 @@
+(Gradle)
+-It is a build by Convention
+-Gradle written in the java, but the build language is in Groovy DSL
+-Support Dependencies(ivy and Maven) 
+-Support multi project builds and multi language build 
+-Easily customisable
+-Declarative Build Language so it can be highly maintainable and readable
+(Installing Gradle)
+-Two way of approach like downloading gradle from the gradle.org or Using GVM(Groovy enVironment Manager) 
+STEP 1 : Download the Gradle from the website
+STEP 2 : unzip the downloaded file our desired location
+STEP 3 : Set the bin directory to the system Path 
+(Gradle Builds)
+-It has build file called build.gradle
+-It has task like Plugins,dependencies and task 
+(Simple Gradle Application) - EX_01_HelloWorld
+-Create a file named as build.gradle
+-Edit the file with one task and save it
+-Open the path, which has build.gradle file in the cmd prompt.
+-Use 'Gradle <taskname given in the file>' to run the file
+-Now the output will be display in the cmd prompt and .gradle floder will be created in the file directory.
+(Adding Plugin in the build.gradle)-EX_02_AddingPlugin
+-Create a src folder with main->java-><packeage dir>->java file with main method, main-> resources
+-use 'gradle build' cmd to  compile and build the jar.
+-New folder build is created with compiled classes and libs and tmp folder
+
+
